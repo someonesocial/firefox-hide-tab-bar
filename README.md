@@ -13,3 +13,5 @@ My favourite vertical tab extension is Tab Stash (https://addons.mozilla.org/de/
 2. Drag the new tab button and any other buttons you need out of the toolbar, as you will not be able to click them if the tab bar is hidden.
 3. When you are done, click the *Done* button.
 4. Follow this guide *https://www.userchrome.org/how-create-userchrome-css.html* to use the userChrome.css file provided above.
+
+Also have a look at the code, I have commented it so you can easily modify/add to it.
