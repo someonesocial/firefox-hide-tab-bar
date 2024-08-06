@@ -1,0 +1,32 @@
+/* Hides the tab bar */
+.tabbrowser-tab {
+  visibility: collapse;
+}
+
+/* Sets the height of the title bar buttons (window buttons) to 40px */
+.titlebar-button {
+  height: 40px !important;
+}
+
+/* Adjusts the position and appearance of the navigation bar */
+#nav-bar {
+  margin-top: -40px; /* Moves the navigation bar 40px up */
+  margin-right: 140px; /* Moves the navigation bar 140px to the right */
+  box-shadow: none !important; /* Removes the shadow of the navigation bar */
+}
+
+/* Hides the sidebar and the associated splitter in fullscreen mode */
+#main-window[inFullscreen="true"] #sidebar-box,
+#main-window[inFullscreen="true"] #sidebar-box + splitter {
+  visibility: collapse;
+}
+
+/* Hides the header area of the sidebar */
+#sidebar-box #sidebar-header {
+  display: none !important;
+}
+
+/* Changes the background color of the window buttons */
+.titlebar-color {
+  background-color: var(--toolbar-bgcolor);
+}
