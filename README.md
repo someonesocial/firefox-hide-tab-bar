@@ -6,6 +6,9 @@ With this custom CSS, you can use any vertical tab extension you like in Firefox
 
 My favourite vertical tab extension is Tab Stash (https://addons.mozilla.org/de/firefox/addon/tab-stash/), as it allows you to group tabs together and also represents these groups as Firefox bookmark folders that you can sync across devices.
 
+![grafik](https://github.com/user-attachments/assets/1edf955a-0df4-4d11-9ba1-c48485f12cc4)
+
+
 ## Installation
 
 1. Download the vertical tab extension of your choice and open it in the sidebar.
