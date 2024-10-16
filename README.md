@@ -18,3 +18,6 @@ My favourite vertical tab extension is Tab Stash (https://addons.mozilla.org/de/
 4. Follow this guide *https://www.userchrome.org/how-create-userchrome-css.html* to use the userChrome.css file provided above.
 
 Also have a look at the code, I have commented it so you can easily modify/add to it.
+
+## Extra:
+If you want a completely black appearance of your browser, install this theme https://addons.mozilla.org/de/firefox/addon/black21/ and also copy the file userContent.css into the "chrome" folder, which will theme the Tab Stash extension.
