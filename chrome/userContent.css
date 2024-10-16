@@ -1,0 +1,42 @@
+@-moz-document url-prefix("moz-extension://8ec8ac16-0c0e-4ae2-b952-7e3fe550aca5/")
+{
+  /* Tab Stash extension - Targeting only Tab Stash elements */
+
+  html {
+    --page-bg: #000000 !important; /* Sets the background of the page to black */
+    --page-fg: #ffffff !important; /* Sets the text color to white */
+    --group-bg: #000000 !important; /* Sets the background color of groups to black */
+    --button-bg: #000000 !important; /* Sets the background color of buttons to black */
+    --ctrl-bg: #000000 !important; /* Sets the background color of input fields to black */
+    --userlink-fg: #ffffff !important; /* Sets the link color to white */
+    --gray: #cccccc !important; /* Defines a light gray color */
+  }
+
+  body {
+    background-color: var(--page-bg) !important;
+    color: var(--page-fg) !important;
+    scrollbar-color: var(--gray) rgba(0, 0, 0, 0) !important; /* Gray scrollbar */
+  }
+
+  /* List elements in Tab Stash */
+  .forest-item {
+    background-color: var(--group-bg) !important;
+    color: var(--page-fg) !important;
+  }
+
+  /* Links inside Tab Stash */
+  .forest-item a {
+    color: var(--userlink-fg) !important; /* White links */
+  }
+
+  .forest-item a:hover {
+    color: #287acc !important; /* Light blue on hover */
+  }
+
+  /* Inputs and text areas in Tab Stash */
+  input,
+  textarea {
+    background-color: var(--ctrl-bg) !important;
+    color: var(--page-fg) !important;
+  }
+}
